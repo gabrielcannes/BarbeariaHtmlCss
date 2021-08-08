@@ -57,9 +57,9 @@ nav a:hover {
 
 .principal {
 	position: relative;
-	margin-top: 200px;
-	margin-left: 600px;
-	margin-right: 50px;
+	/* margin-top: 200px; */
+	margin-left: 500px;
+	margin-right: 100px;
 	margin-bottom: 200px;
 	text-align: right;
     font-size: 25px;
@@ -101,9 +101,39 @@ em strong {
     font-style: italic;
 }
 
-.beneficios {
-    background: #FFFFFF;
+.bgBeneficios {
+    background-color: black;
+}
+
+.img-beneficios {
     padding: 20px;
+    background-image: url(beneficios.jpg);
+    padding-bottom: 400px;
+    opacity: 0.2;
+}
+
+.beneficios h3 {
+    position: absolute;
+    top: 1450px;
+    left: 42%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    margin-top: 50px;
+    color: white;
+}
+
+.beneficios ul {
+    position: absolute;
+    top: 1600px;
+    left: 40%;
+    text-align: center;
+}
+
+.beneficios li {
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: white;
 }
 
 ul {
@@ -131,4 +161,8 @@ footer {
 
 .sobre {
 	display: flex;
+}
+
+.logo-sobre {
+    margin-top: 50px;
 }
