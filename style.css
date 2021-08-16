@@ -92,3 +92,49 @@ footer {
     margin-top: 20px;
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 2s;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.enviar:hover {
+    background-color: #c78c19;
+    cursor: pointer;
+    transform: scale(1.2);
+}
