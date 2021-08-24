@@ -1,15 +1,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .navegacao {
     background-color: black;
 }
 
 body {
-	background: #CCCCCC;
+    background: #CCCCCC;
 }
 
 nav {
+    margin-left: 8%;
     width: 10px;
     padding: 1.5%;
 }
@@ -30,12 +32,12 @@ nav ul {
 }
 
 nav li {
-	padding-top: 1.5%;
-	padding-left: 100px;
+    padding-top: 1.5%;
+    padding-left: 100px;
 }
 
 nav a:hover {
-    color: #c78c19 ;
+    color: #c78c19;
     text-decoration-line: underline;
 }
 
@@ -53,17 +55,16 @@ nav a:hover {
     position: absolute;
     top: 220px;
     left: 44%;
-
     font-weight: bold;
 }
 
 .principal {
-	position: relative;
-	font-weight: bold;
-	margin-left: 500px;
-	margin-right: 100px;
-	margin-bottom: 200px;
-	text-align: right;
+    position: relative;
+    font-weight: bold;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    text-align: right;
     font-size: 25px;
     padding: 30px;
 }
@@ -81,10 +82,10 @@ nav a:hover {
 }
 
 .titulo-centralizado {
-	font-size: 40px;
-	font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 p {
@@ -96,7 +97,7 @@ p {
 }
 
 em strong {
-    color: #c78c19 ;
+    color: #c78c19;
 }
 
 .itens {
@@ -116,7 +117,7 @@ em strong {
 
 .beneficios h3 {
     position: absolute;
-    top: 1500px;
+    top: 145%;
     left: 42%;
     text-align: center;
     font-weight: bold;
@@ -127,7 +128,7 @@ em strong {
 
 .beneficios ul {
     position: absolute;
-    top: 1650px;
+    top: 160%;
     left: 40%;
     text-align: center;
 }
@@ -162,7 +163,7 @@ footer {
 }
 
 .sobre {
-	display: flex;
+    display: flex;
 }
 
 .logo-sobre {
@@ -174,7 +175,6 @@ footer {
     padding-top: 3em 0;
     font-weight: bold;
 }
-
 
 .mapa p {
     margin-top: 1em;
