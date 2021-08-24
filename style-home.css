@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .navegacao {
     background-color: black;
 }
@@ -57,7 +59,7 @@ nav a:hover {
 
 .principal {
 	position: relative;
-	/* margin-top: 200px; */
+	font-weight: bold;
 	margin-left: 500px;
 	margin-right: 100px;
 	margin-bottom: 200px;
@@ -114,7 +116,7 @@ em strong {
 
 .beneficios h3 {
     position: absolute;
-    top: 1450px;
+    top: 1500px;
     left: 42%;
     text-align: center;
     font-weight: bold;
@@ -125,7 +127,7 @@ em strong {
 
 .beneficios ul {
     position: absolute;
-    top: 1600px;
+    top: 1650px;
     left: 40%;
     text-align: center;
 }
@@ -165,4 +167,5 @@ footer {
 
 .logo-sobre {
     margin-top: 50px;
+    float: right;
 }
