@@ -155,3 +155,7 @@ td, th {
     border-color: black;
     padding: 8px 15px;
 }
+
+@media screen and (max-width:480px){
+    
+}
