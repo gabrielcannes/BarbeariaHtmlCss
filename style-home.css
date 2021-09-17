@@ -11,7 +11,6 @@ body {
 }
 
 nav {
-    margin-left: 8%;
     width: 10px;
     padding: 1.5%;
 }
@@ -54,7 +53,7 @@ nav a:hover {
 .logo {
     position: absolute;
     top: 220px;
-    left: 44%;
+    left: 45%;
     font-weight: bold;
 }
 
@@ -64,9 +63,9 @@ nav a:hover {
     margin-left: 500px;
     margin-right: 100px;
     margin-bottom: 200px;
-    text-align: right;
+    text-align: justify;
     font-size: 25px;
-    padding: 30px;
+    padding: 50px;
 }
 
 .titulo-principal {
@@ -117,7 +116,7 @@ em strong {
 
 .beneficios h3 {
     position: absolute;
-    top: 145%;
+    top: 200%;
     left: 42%;
     text-align: center;
     font-weight: bold;
@@ -128,7 +127,7 @@ em strong {
 
 .beneficios ul {
     position: absolute;
-    top: 160%;
+    top: 220%;
     left: 40%;
     text-align: center;
 }
@@ -184,4 +183,91 @@ footer {
 
 .mapa div {
     margin: 3%;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        width: 812px;
+    }
+
+    #banner{
+        width: 812px;
+    }
+
+    .titulo-principal{
+        width: 812px;
+        font-size: xx-large;
+        position: absolute;
+        position: absolute;
+        top:auto;
+        left: 0px;
+    }
+    .logo{
+        position: absolute;
+        top:130px;
+        left: 350px;
+        max-height: 120;
+        max-width: 90px;
+        width: 90px;
+        height: 120px;
+    }
+    .navegacao{
+        width: 812px;
+        padding-top: 100px;
+    }
+    .navegacao nav{
+        width: 812px;
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+
+    .navegacao ul{
+        position: absolute;
+        left: 0px;
+        top: 100px;
+    }
+
+    .navegacao li {
+        display: inline-flexbox;
+        position: relative;
+        left: -400px;
+        margin-left: -90px;
+        width: 812px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .logo-sobre img{
+        max-height: 100px;
+        max-width: 90px;
+        width: 90px;
+        height: 100px;
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+    .sobre{
+        padding-bottom: 200px;
+    }
+
+    .principal{
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 0px;
+        font-size: large;
+        padding-left: 40;
+        align-items: center;
+        width: 700px;
+    }
+    .beneficios h3{
+        position: absolute;
+        top: 820px;
+        left: 270px;
+    }
+    .beneficios ul{
+        position: absolute;
+        top: 990px;
+        left: 260px;
+        width: 300px;
+    }
+    
 }
